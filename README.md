@@ -7,13 +7,18 @@
 - [iTerm2](https://www.iterm2.com/)
 - [homebrew](https://brew.sh/)
     - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- fish shell `brew install fish`
+- fish shell 
+    - `brew install fish`
 - [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
     - `curl -L https://get.oh-my.fish | fish`
     - `omf install lambda` (theme)
 - [VS Code](https://code.visualstudio.com/)
+- [General SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+    - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 - emacs
     - `brew cask install emacs`
+    - `rm -rf ~/.emacs.d`
+    - `git clone git@github.com:p31d3ng/emacs.d.git ~/.emacs.d` OR `git clone https://github.com/p31d3ng/emacs.d.git`
 - Spark (Mac App Store)
 - [Chrome](https://www.google.com/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -23,7 +28,7 @@
 - [Bartender 3](https://www.macbartender.com/)
 - Moom (Mac App Store)
 - Parcel (Mac App Store)
-- The unarchiver (Mac App Store)
+- The Unarchiver (Mac App Store)
 - Bear (Mac App Store)
 
 # Alias for Fish
